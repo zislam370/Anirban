@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/login_border">
+
+        <ImageView
+            android:id="@+id/anirbanimage"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginRight="62dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.20"
+            android:src="@drawable/microfin_anirban_logo" />
+        <EditText
+            android:id="@+id/orgcode"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginRight="52dp"
+            android:hint="Organization Code"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/anirbanimage"
+            android:background="@drawable/textfield_border"
+            android:drawableLeft="@drawable/home_home_icon"
+            android:drawablePadding="0dp"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginRight="52dp"
+            android:hint="Organization Code"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/orgcode"
+            android:background="@drawable/textfield_border"
+            android:drawableLeft="@drawable/ic_group_black_24dp"
+            android:drawablePadding="0dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginRight="52dp"
+            android:hint="Organization Code"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/username"
+            android:background="@drawable/textfield_border"
+            android:drawableLeft="@drawable/key_icon"
+            android:drawablePadding="0dp"
+            android:inputType="textPassword"
+             />
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginRight="52dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/password"
+            android:background="@drawable/submit_border"
+            android:onClick="login"
+            android:textSize="10dp"
+            android:text="Login"
+            android:textColor="#FFF4F5F5" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:id="@+id/text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powered By"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#FF111212"
+            android:textColorHighlight="@android:color/primary_text_dark"
+            android:textSize="10dp"/>
+
+        <ImageView
+            android:id="@+id/pclink"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/pc_link_logo" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

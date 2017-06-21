@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:scrollbars="horizontal|vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TableLayout
+            android:id="@+id/tablelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.72">
+
+
+            <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/sl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/table_border"
+                    android:textColor="#eeeef4"
+                    android:layout_marginBottom="0px"
+                    android:paddingLeft="10px"
+                    android:paddingTop="0px"
+                    android:text="Sl" />
+
+                <TextView
+                    android:id="@+id/member"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5"
+                    android:layout_marginBottom="1px"
+                    android:paddingLeft="10px"
+                    android:paddingTop="10px"
+                    android:paddingRight="20px"
+                    android:paddingBottom="3px"
+                    android:text="Member"/>
+
+                <TextView
+                    android:id="@+id/loan_no"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:background="@drawable/table_border"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Loan No"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/project_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Project Type"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/component"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Component"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/disb_date"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Disb.Date"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+
+                <TextView
+                    android:id="@+id/disb_ammount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Disb. Ammount"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+
+                <TextView
+                    android:id="@+id/loan_outstd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Loan OutStd"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/overdue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Overdue"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/load_advanced"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/table_border"
+                    android:textColor="#eeeef4"
+                    android:layout_marginBottom="0px"
+                    android:paddingLeft="10px"
+                    android:paddingTop="0px"
+                    android:text="Loan Advance" />
+
+                <TextView
+                    android:id="@+id/saving_balanced"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5"
+                    android:layout_marginBottom="1px"
+                    android:paddingLeft="10px"
+                    android:paddingTop="10px"
+                    android:paddingRight="20px"
+                    android:paddingBottom="3px"
+                    android:text="Saving Balancr"/>
+
+                <TextView
+                    android:id="@+id/comsaving"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:background="@drawable/table_border"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Com.Saving"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/volSaving"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Vol.Saving"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/othSaving"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Oth.Saving"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/loan_recovarable"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Loan Recov"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+
+                <TextView
+                    android:id="@+id/instReceive"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Inst.Received"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+
+                <TextView
+                    android:id="@+id/comSaving"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Com.Saving"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/comInterest"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Com.Interest"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+
+                <TextView
+                    android:id="@+id/savingRefCom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/table_border"
+                    android:textColor="#eeeef4"
+                    android:layout_marginBottom="0px"
+                    android:paddingLeft="10px"
+                    android:paddingTop="0px"
+                    android:text="Saving Ref.Com" />
+
+                <TextView
+                    android:id="@+id/savingRefVol"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5"
+                    android:layout_marginBottom="1px"
+                    android:paddingLeft="10px"
+                    android:paddingTop="10px"
+                    android:paddingRight="20px"
+                    android:paddingBottom="3px"
+                    android:text="Saving Ref.Vol"/>
+
+                <TextView
+                    android:id="@+id/attendent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:background="@drawable/table_border"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Attendance"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/rebate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Rebate"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+                <TextView
+                    android:id="@+id/writeOff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:paddingBottom="3px"
+                    android:paddingLeft="10px"
+                    android:paddingRight="20px"
+                    android:paddingTop="10px"
+                    android:text="Write Off"
+                    android:background="@drawable/table_border"
+                    android:textColor="#f0f0f5" />
+
+
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</HorizontalScrollView>

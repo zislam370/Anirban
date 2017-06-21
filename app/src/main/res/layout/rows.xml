@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableRow1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    >
+    <TextView
+        android:id="@+id/nr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="40px"
+        android:paddingBottom="3px"
+        android:text="nr" />
+
+    <TextView
+        android:id="@+id/fName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+
+    <TextView
+        android:id="@+id/lName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px" />
+
+
+    <CheckBox
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+         />
+
+
+    <EditText
+        android:id="@+id/c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px" />
+
+
+
+    <EditText
+        android:id="@+id/f"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px" />
+
+
+    <EditText
+        android:id="@+id/lName1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px" />
+
+
+    <CheckBox
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        />
+
+    <CheckBox
+        android:id="@+id/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        />
+
+    <CheckBox
+        android:id="@+id/h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        />
+
+    <CheckBox
+        android:id="@+id/h4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        />
+
+
+    <TextView
+        android:id="@+id/lName2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+
+    <TextView
+        android:id="@+id/lName3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+    <TextView
+        android:id="@+id/lName4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+    <TextView
+        android:id="@+id/lName5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+    <TextView
+        android:id="@+id/lName6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+    <TextView
+        android:id="@+id/lName7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+    <TextView
+        android:id="@+id/lName8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+    <TextView
+        android:id="@+id/lName9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+    <TextView
+        android:id="@+id/lName10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+    <TextView
+        android:id="@+id/lName11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+    <TextView
+        android:id="@+id/lName12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/edittext_back"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:paddingRight="20px"
+        android:paddingBottom="3px"
+        android:text="First Name" />
+
+</TableRow>
